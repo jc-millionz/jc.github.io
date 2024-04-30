@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-srief;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+hr {
+  height: 8px;
+  background-color: #1d2026;
+  ;
+  border: #1d2026;
+  ;
+}
+
+.header-section {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(images-netflix/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+
+}
+
+nav .logo {
+  width: 160px;
+  cursor: pointer;
+  margin-left: 60px;
+
+}
+
+nav .signin-button {
+  border: none;
+  background: red;
+  color: #fff;
+  padding: 10px 4%;
+  border-radius: 5px;
+  margin-right: 70px;
+}
+
+.signin-button:hover {
+  background-color: #a01111;
+}
+
+.heading-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heading-1 h1 {
+  font-size: 42px;
+  line-height: 70px;
+  font-weight: 900px;
+  max-width: 600px;
+
+}
+
+.heading-1 h3 {
+  font-weight: 400px;
+  margin-bottom: 30px;
+}
+
+.email-sign-up {
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.email-sign-up input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+
+.email-sign-up button {
+  background-color: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 30px;
+}
+
+.email-sign-up button:hover {
+  background-color: #a01111;
+}
+
+/*----------------feature section------------*/
+.features {
+  padding: 50px, 12px;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0;
+}
+
+/*---------------feature section2---------*/
+.feature2 {
+  padding: 50px, 12px;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px, 0;
+  padding-left: 200px;
+
+}
+
+.head2 {
+  font-weight: 300px;
+}
+
+.text-col2 {
+  max-width: 500px;
+}
+
+.img2 {
+  width: 450px;
+  height: 350px;
+  size: contain;
+}
+
+/*-----------------feature section3-----*/
+.feature3 {
+  padding: 50px, 12px;
+  font-size: 22px;
+}
+
+.img3 {
+  width: 450px;
+  height: 350px;
+  size: contain;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.text-col3 {
+  max-width: 500px;
+}
+
+/*----------feature section4----*/
+.feature4 {
+  padding: 50px, 12px;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px, 0;
+  padding-left: 200px;
+
+}
+
+.head2 {
+  font-weight: 300px;
+}
+
+.text-col4 {
+  max-width: 500px;
+}
+
+.img4 {
+  width: 450px;
+  height: 350px;
+  size: contain;
+}
